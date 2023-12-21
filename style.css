@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+.navbar-brand
+ {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+section#tips > div.card {
+    background-color: #DCEDC8;
+}
+
+section#cautions > div.card {
+    background-color: #FFCDD2;
+}
+
+#final-thoughts {
+    text-align: center;
+}
