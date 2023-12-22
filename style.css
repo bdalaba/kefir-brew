@@ -1,9 +1,10 @@
 * {
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 body {
-    background-color: #1D2630; /* Add this in */
+    background-color: #1D2630;
 }
 
 .navbar,
@@ -27,13 +28,12 @@ li {
 
 #introduction {
     margin-top: 50px;
-    color: white; /* Add this in */
 }
 
 .card {
-    background-color: #343F4C; /* Add this in */
-    border: 1px solid white; /* Add this in */
-    color: white; /* Add this in */
+    background-color: #343F4C;
+    border: 1px solid white;
+    color: white;
 }
 
 .faded {
@@ -42,11 +42,11 @@ li {
 }
 
 section#tips > div.card {
-    background-color: #43A047; /* Add this in */
+    background-color: #43A047;
 }
 
 section#cautions > div.card {
-    background-color: #E53935; /* Add this in */
+    background-color: #E53935;
 }
 
 #final-thoughts {
