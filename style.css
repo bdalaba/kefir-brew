@@ -2,6 +2,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #1D2630; /* Add this in */
+}
+
+.navbar,
+footer {
+    background-color: #293542;
+}
+
 h1,
 h2,
 .navbar-brand
@@ -18,18 +27,21 @@ li {
 
 #introduction {
     margin-top: 50px;
+    color: white; /* Add this in */
 }
 
 .card {
-    border: 1px solid black;
+    background-color: #343F4C; /* Add this in */
+    border: 1px solid white; /* Add this in */
+    color: white; /* Add this in */
 }
 
 section#tips > div.card {
-    background-color: #DCEDC8;
+    background-color: #43A047; /* Add this in */
 }
 
 section#cautions > div.card {
-    background-color: #FFCDD2;
+    background-color: #E53935; /* Add this in */
 }
 
 #final-thoughts {
