@@ -36,6 +36,11 @@ li {
     color: white; /* Add this in */
 }
 
+.faded {
+    color: #787D8A;
+    font-weight: 400;
+}
+
 section#tips > div.card {
     background-color: #43A047; /* Add this in */
 }
