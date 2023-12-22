@@ -43,6 +43,7 @@ a {
 .faded {
     color: #D8D9DB;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 section#tips > div.card {
