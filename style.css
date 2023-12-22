@@ -16,6 +16,10 @@ li {
     font-weight: 400;
 }
 
+.card {
+    1px solid black;
+}
+
 section#tips > div.card {
     background-color: #DCEDC8;
 }
