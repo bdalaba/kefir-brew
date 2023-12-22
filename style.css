@@ -26,6 +26,10 @@ li {
     font-weight: 400;
 }
 
+a {
+    color: #00C8FF;
+}
+
 #introduction {
     margin-top: 50px;
 }
