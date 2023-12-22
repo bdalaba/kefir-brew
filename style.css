@@ -16,6 +16,10 @@ li {
     font-weight: 400;
 }
 
+#introduction {
+    margin-top: 50px;
+}
+
 .card {
     border: 1px solid black;
 }
