@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: white;
 }
 
@@ -15,13 +15,13 @@ footer {
 h1,
 h2,
 .navbar-brand {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
 }
 
 p,
 li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
 }
 
