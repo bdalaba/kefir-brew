@@ -15,13 +15,11 @@ footer {
 h1,
 h2,
 .navbar-brand {
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
 }
 
 p,
 li {
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -40,7 +38,6 @@ strong {
 
 .card {
     background-color: #343F4C;
-    border: 1px solid white;
     color: white;
 }
 
