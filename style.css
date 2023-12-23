@@ -30,7 +30,8 @@ a {
     color: #00C8FF;
 }
 
-#introduction {
+#introduction,
+#recipes {
     margin-top: 50px;
 }
 
