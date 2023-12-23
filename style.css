@@ -29,6 +29,10 @@ a {
     color: #00C8FF;
 }
 
+strong {
+    text-decoration: underline;
+}
+
 #introduction,
 #recipes {
     margin-top: 50px;
