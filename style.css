@@ -9,17 +9,19 @@ body {
 
 .navbar,
 footer {
-    background-color: #293542;
+    background-color: #343F4C;
 }
 
 h1,
 h2,
 .navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
 }
 
 p,
 li {
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -37,9 +39,23 @@ strong {
 }
 
 .card {
-    background-color: #343F4C;
+    background-color: #293542;
     color: white;
 }
+
+.card-header {
+    background-color: #343F4C;
+    padding-top: 25px;
+}
+
+#tips > .card > .card-header {
+    background-color: #1ABC9C;
+}
+
+#cautions > .card > .card-header {
+    background-color: #E74C3C;
+}
+
 
 .faded {
     color: #D8D9DB;
