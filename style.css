@@ -47,11 +47,11 @@ a {
 }
 
 section#tips > div.card {
-    background-color: #43A047;
+    background-color: #33691E;
 }
 
 section#cautions > div.card {
-    background-color: #E53935;
+    background-color: #B71C1C;
 }
 
 #final-thoughts {
