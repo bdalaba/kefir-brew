@@ -11,13 +11,13 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/kb-bottle-icon.png">
+    <link rel="icon" href="images/kb-icon.png">
     <title>Kefir Brew</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,700;6..12,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
 </head>
     
@@ -27,7 +27,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="https://kefirbrew.com">
-        <img src="images/kb-bottle-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        <img src="images/kb-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
         Kefir Brew
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Brewing</a>
+            <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://kefirbrew.com/homebrew">Homebrew</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://kefirbrew.com/recipes">Recipes</a>
@@ -48,134 +51,99 @@
 <!-- Main Content -->
 <div class="container mt-4">
 
-    <!-- Introduction -->
-    <section id="introduction">
-        <h1 class="mb-3">👋 Introduction</h1>
-        <p>Kefir water is a fermented beverage made by combining kefir grains with a sugar water solution. Rich in probiotics, it promotes a balanced gut microbiome and offers benefits like improved digestion, nutrient absorption, and immune function. With reduced lactose content, it's well-tolerated by those with lactose intolerance. Packed with vitamins, minerals, and organic acids, this tangy beverage is a flavorful and nutritious addition to a health-conscious diet. The brewing process involves two ferments as detailed below👇.</p>
+    <!-- Welcome Hero -->
+    <section id="welcome-hero">
+      <div class="container my-5 rounded-3">
+        <div class="row p-4 pb-4 pe-lg-0 pt-lg-4 align-items-center rounded-3">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-4">
+            <h1 class="mt-3">Make your own kefir water!</h1>
+            <p class="lead">Subscribe to the emailing list for various tips and updates.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <a class="btn btn-primary btn-lg" href="https://kefirbrew.com/homebrew" role="button">Start Homebrewing</a>
+              <a class="btn btn-secondary btn-lg" href="https://kefirbrew.com/homebrew" role="button">Find Recipes</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div id="mc_embed_shell">
+              <div id="mc_embed_signup">
+                <form action="https://kefirbrew.us10.list-manage.com/subscribe/post?u=d2dc02d6d795a03ce0d3bc617&amp;id=ff2b807670&amp;f_id=00f2d9e5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate p-4 p-md-5 rounded-3" target="_blank">
+                  <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group form-floating mb-3"">
+                      <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" required="" value="" placeholder="name@example.com">
+                      <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                    </div>
+                    <div id="mce-responses" class="clear foot">
+                      <div class="response" id="mce-error-response" style="display: none;"></div>
+                      <div class="response" id="mce-success-response" style="display: none;"></div>
+                    </div>
+                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                      <input type="text" name="b_d2dc02d6d795a03ce0d3bc617_ff2b807670" tabindex="-1" value="">
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="optionalParent">
+                      <div class="clear foot">
+                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button w-100 btn btn-lg btn-primary" value="Subscribe">
+                        <!-- <p style="margin: 0px auto;"><a href="http://eepurl.com/iHbd_M" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p> -->
+                      </div>
+                      <hr class="my-4">
+                      <small>By clicking 'Subscribe', you agree to receiving tips and updates via email.</small>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- Mailchimp Script -->
+              <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Tools & Materials -->
-    <section id="tools-and-materials" class="mt-5">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="mb-3">🛠️ Get Started with Kefir Water Brewing</h2>
+
+    <section id="features">
+      <div class="container px-4 py-3">
+        <h2 class="pb-2 border-bottom">Why put it in you?🤔</h2>
+    
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="mb-3">It's good for you!🥳</h2>
+            <p>Kefir water is a fermented beverage made by combining kefir grains with a sugar water solution. Rich in probiotics, it promotes a balanced gut microbiome and offers benefits like improved digestion, nutrient absorption, and immune function. With reduced lactose content, it's well-tolerated by those with lactose intolerance. Packed with vitamins, minerals, and organic acids, this tangy beverage is a flavorful and nutritious addition to a health-conscious diet.</p>
+            <a class="btn btn-primary btn-lg" href="https://kefirbrew.com/homebrew" role="button">Start Homebrewing</a>
           </div>
-            <div class="card-body">
-                <p><strong>To start making kefir water, gather the following tools and materials:</strong></p>
-                <ul>
-                  <li><strong>Kefir Water Grains:</strong> Obtain live kefir grains from a reliable source. → <a href="https://www.amazon.com/Organic-Kefir-Tibicos-Natural-Probiotics/dp/B010PBELYY/ref=sxin_14_pa_sp_search_thematic_sspa?content-id=amzn1.sym.d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8%3Aamzn1.sym.d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8&crid=2NRVFVTGICFJC&cv_ct_cx=kefir%2Bwater%2Bgrains&keywords=kefir%2Bwater%2Bgrains&pd_rd_i=B010PBELYY&pd_rd_r=a96f5910-c710-4f31-b787-7d408635fcfc&pd_rd_w=4Adw8&pd_rd_wg=LA9is&pf_rd_p=d17ca69f-1a39-4f7d-a62f-e5dff4cfd6d8&pf_rd_r=5ZBRG603FD7TDMQDPEZB&qid=1703192961&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=kefir%2Bwater%2Caps%2C151&sr=1-2-364cf978-ce2a-480a-9bb0-bdb96faa0f61-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1">Find on Amazon</a> or <a href="https://culturesforhealth.com/products/water-kefir-grains?_pos=1&_psq=water%20&_ss=e&_v=1.0">Cultures for Health</a></li>
-                  <li><strong>Sugar:</strong> Choose a good-quality sugar like organic cane sugar or organic brown sugar. → <a href="https://www.amazon.com/365-Everyday-Value-Sugar-Organic/dp/B07NS86M42/ref=sr_1_2?crid=247SQSEJBE6LL&keywords=365+brown+sugar&qid=1703283233&sprefix=365+brown+sugar%2Caps%2C186&sr=8-2">Find Brown Sugar</a> or <a href="https://www.amazon.com/365-Everyday-Value-Organic-Sugar/dp/B074VDHXD2/ref=sr_1_5?crid=2E02M927YQ3VA&keywords=organic+cane+sugar&qid=1703283392&sprefix=organic+cane+sugar%2Caps%2C119&sr=8-5">Cane Sugar on Amazon</a></li>
-                  <li><strong>Water:</strong> Non-chlorinated water is crucial, use filtered or spring water. → <a href="https://www.amazon.com/Poland-Spring-100-Natural-Water/dp/B01L98GFC8/ref=sr_1_12?crid=2AF6V804QH9AO&keywords=one+gallon+spring+water+ice+mountain&qid=1703283468&sprefix=one+gallon+sping+water+ice+mountain%2Caps%2C119&sr=8-12">Find on Amazon</a></li>
-                  <li><strong>Sea Salt:</strong> Just a pinch for the first ferment to add minerals for the kefir grains. → <a href="https://www.amazon.com/REDMOND-Real-Sea-Salt-Unrefined/dp/B000R5PKD0/ref=sr_1_27?crid=22AZD87DUVPE2&keywords=sea+salt&qid=1703283601&sprefix=sea+salt%2Caps%2C138&sr=8-27">Find on Amazon</a></li>
-                  <li><strong>Glass Jug:</strong> Use a glass jar for fermentation, avoiding metal containers. → <a href="https://www.amazon.com/Home-Brew-Ohio-Polyseal-Capacity/dp/B00A7V9AVC/ref=sr_1_2?crid=1TMX79P678AQ3&keywords=fastrack%2Bglass%2Bwater%2Bbottle&qid=1703283764&sprefix=fastrack%2Bglass%2Bwater%2Caps%2C131&sr=8-2&th=1">Find on Amazon</a></li>
-                  <li><strong>Glass Bowl:</strong> Used for pouring first ferment into before distributing into individual second ferment bottles. → <a href="https://www.amazon.com/FIRJOY-Mixing-KitchenAid-Tilt-Head-Mixers/dp/B0B5T18WL7/ref=sr_1_7?crid=P645FTPAQI3G&keywords=glass%2Bmixing%2Bbowl%2Bpouring&qid=1703283881&sprefix=glass%2Bmixing%2Bbowl%2Bpouring%2Caps%2C140&sr=8-7&th=1">Find on Amazon</a></li>
-                  <li><strong>Cloth or Coffee Filter:</strong> Cover the jar with a breathable material secured with a rubber band. → <a href="https://www.amazon.com/Basket-Coffee-Filters-Natural-Unbleached/dp/B07MQ23HDX/ref=sr_1_7?crid=3M4H6PX56BP3U&keywords=coffee%2Bfilter&qid=1703284150&sprefix=coffee%2Bfil%2Caps%2C148&sr=8-7&th=1">Find coffee filters on Amazon</a></li>
-                  <li><strong>Strainer:</strong> Use a plastic strainer to separate kefir grains from the liquid. → <a href="https://www.amazon.com/OXO-Good-Grips-Plastic-Colander/dp/B0B995WV5L/ref=sr_1_15?crid=GANV2V9775AE&keywords=plastic+colander&qid=1703284412&sprefix=plastic+colander%2Caps%2C161&sr=8-15">Find on Amazon</a></li>
-                  <li><strong>Flavorings:</strong> Fruit, 100% juice, or herbs/spices for extra flavor. → <a href="https://rwknudsen.com/">Favorite Juices</a></li>
-                  <li><strong>Funnel:</strong> Handy for transferring liquid during bottling. → <a href="https://www.amazon.com/Winco-PF-32-Plastic-6-25-Inch-Diameter/dp/B001TA8UFC/ref=sr_1_6?crid=1XMTIXA94RAEI&keywords=plastic%2Bfunnel%2Bwide&qid=1703284536&sprefix=plastic%2Bfunnel%2Bwide%2Caps%2C147&sr=8-6&th=1">Find on Amazon</a></li>
-                  <li><strong>Bottles with Tight-Sealing Lids:</strong> Glass bottles with airtight lids for storage (16oz glass with flip-tops work great). → <a href="https://www.amazon.com/PACK-Swing-Top-Glass-Bottles/dp/B08P84S3PQ/ref=sr_1_5?crid=3DRY7H5HC26EV&keywords=8+set+16oz+swing+top+glass+bottles&qid=1703284601&sprefix=8+set+16+oz+swing+top+glass+bottles%2Caps%2C116&sr=8-5">Find on Amazon</a></li>
-                </ul>
+    
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="mb-0">Probiotics👊🏼</h4>
+                <p>Kefir water contains beneficial bacteria that enhance gut health, aiding digestion and nutrient absorption, and may help in managing digestive disorders.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="mb-0">Immune Support💪🏼</h4>
+                <p>The probiotics in kefir water contribute to a stronger immune system by maintaining a healthy gut, which is crucial for immune defense.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="mb-0">Nutrient-Rich👍🏼</h4>
+                <p> It is a source of various vitamins (like B vitamins and vitamin K) and minerals (such as magnesium and calcium), supporting overall health including bone strength and energy metabolism.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="mb-0">Low in Sugar and Lactose-Free👌🏼</h4>
+                <p>Kefir water is lower in sugar compared to other fermented drinks and doesn't contain lactose, making it a good option for those reducing sugar intake or with lactose intolerance.</p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- First Ferment -->
-    <section id="first-ferment" class="mt-5">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="mb-3">☝️ First Ferment <span class="faded">(One gallon)</span></h2>
-          </div>
-            <div class="card-body">
-                <p><strong>Ingredients:</strong></p>
-                <ul>
-                  <li>At least 4-8 tablespoons of kefir grains</li>
-                  <li>1 cup of organic brown sugar</li>
-                  <li>1 pinch of sea salt (don't overdo it)</li>
-                  <li>1 gallon of non-chlorinated water (use spring or filtered water)</li>
-                </ul>
-                <p><strong>Instructions:</strong></p>
-                <ol>
-                  <li>Add water into your one gallon glass jar.</li>
-                  <li>Add sugar to the water.</li>
-                  <li>Add a pinch of sea salt.</li>
-                  <li>Dissolve sugar into the water by shaking it.</li>
-                  <li>Add kefir grains into the sugar water.</li>
-                  <li>Cover the one-gallon jar with a breathable cloth or coffee filter and secure with a rubber band or hair tie.</li>
-                  <li>Let it ferment for 24-48 hours at room temperature (68-78°F).</li>
-                  <li>Strain out the kefir grains, and your activated kefir water is ready for second fermentation process.</li>
-                </ol>
-            </div>
-        </div>
-    </section>
+    
 
-    <!-- Second Ferment -->
-    <section id="second-ferment" class="mt-5">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="mb-3">✌️ Second Ferment <span class="faded">(16oz bottles)</span></h2>
-          </div>
-            <div class="card-body">
-                <p><strong>Ingredients:</strong></p>
-                  <ul>
-                    <li>About 1/4 cup of fruit or 2 tablespoons of 100% juice (watch out for additives or other ingredients - keep it clean)</li>
-                    <li>About 1-2 teaspoons of herb/spice (optional)</li>
-                  </ul>
-                <p><strong>Instructions:</strong></p>
-                <ol>
-                  <li>Pour your first ferment into a bowl with a plastic strainer over it to catch the kefir grains. Then add the grains into your next first ferment batch of sugar water.</li>
-                  <li>Add flavorings (fruit, 100% juice, herbs/spices, etc.) to the 16oz glass bottles as desired.</li>
-                  <li>Transfer the activated kefir water from the bowl to each 16oz glass bottle with airtight lids.</li>
-                  <li>Leave some space at the top for carbonation (1-3").</li>
-                  <li>Seal the bottles and let them ferment for an additional 24-48 hours at room temperature (68-78°F).</li>
-                  <li>Refrigerate the 16oz bottles after the second ferment to chill the kefir water and slow the fermentation process (otherwise they can explode💥).</li>
-                </ol>
-                <p><strong>Once chilled, your kefir water is ready to drink. Strain out any added flavorings if desired. Enjoy your homemade, probiotic-rich kefir water!</strong></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Helpful Notes -->
-    <section id="tips" class="mt-5">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="mb-3">💡 Helpful Tips for Home Brewing Kefir Water</h2>
-          </div>
-            <div class="card-body">
-                <ul>
-                  <li><strong>Use Non-Chlorinated Water:</strong> Chlorine can inhibit fermentation, so use filtered or spring water.</li>
-                  <li><strong>Maintain Cleanliness:</strong> Ensure that all utensils, jars, and containers used in the process are clean. Proper hygiene reduces the risk of contamination.</li>
-                  <li><strong>Monitor Temperature:</strong> Keep the fermentation environment at a consistent room temperature, ideally between 68-78°F although 65-85°F can still work. But avoid extreme temperature fluctuations.</li>
-                  <li><strong>Adjust Fermentation Time:</strong> Experiment with fermentation times to find the flavor and level of carbonation you prefer. Longer fermentation results in a stronger flavor.</li>
-                  <li><strong>Strain Carefully:</strong> When straining kefir grains, use a plastic or stainless steel strainer. Avoid metal as it can react with the acidic kefir.</li>
-                  <li><strong>Store Grains Properly:</strong> If you need to take a break from brewing, store kefir grains in a small amount of sugar water in the refrigerator. Change the sugar water every 2-3 weeks.</li>
-                  <li><strong>Start Small:</strong> If you're new to kefir brewing, start with smaller batches until you become familiar with the process and your preferences.</li>
-                  <li><strong>Flavor Experimentation:</strong> Get creative with flavors during the second fermentation. Try different fruits, herbs, or spices to find your favorite combination.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-  
-    <section id="cautions" class="mt-5">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="mb-3">⚠️ Cautions for Home Brewing Kefir Water</h2>
-          </div>
-            <div class="card-body">
-                <ul>
-                  <li><strong>Be Patient:</strong> The fermentation process may take some time (longer in the winter than summer - home temperature depending), and the flavor can vary. Be patient, and allow the kefir to develop its full taste.</li>
-                  <li><strong>Watch for Mold:</strong> While uncommon, mold can develop. If you see any signs of mold (fuzzy or discolored growth), discard the batch.</li>
-                  <li><strong>Avoid Contamination:</strong> Keep brewing equipment away from contaminants like household cleaning products, strong odors, and raw meats.</li>
-                  <li><strong>Extreme Carbonation:</strong> Some sources recommend burping your second ferment bottles daily. This can lead to a flatter brew. If you want more carbonation, don't burp them, but don't let the second ferment go too far beyond 48 hours (temperature depending - warmer temps lead to faster ferments). Otherwise the bottles can explode!</li>
-                  <li><strong>Moderation is Key:</strong> While kefir water is generally considered safe, it's a good idea to consume it in moderation, especially if you are new to probiotic-rich foods.</li>
-                  <li><strong>Consult a Healthcare Professional:</strong> If you have any underlying health conditions or concerns, consult with a healthcare professional before adding kefir water to your diet.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Keep Learning -->
+    <!-- Happy Brewing! -->
     <section class="mt-5">
-        <h2 id="final-thoughts" class="mb-3">Happy Brewing!🍻</h2>
+        <h3 id="final-thoughts" class="mb-3">Happy Brewing!🍻</h3>
     </section>
 
 </div>
@@ -185,7 +153,8 @@
     <p>&copy; 2023 All rights reserved. Made with ❤️ by Kefir Brew</p>
 </footer>
 
+
 <!-- Bootstrap JS (optional) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
